@@ -67,23 +67,6 @@ int main(){
         
     }
     
-    // cout<<"Final u(x,t) distribution: "<<endl;
-    // for (int i = 0; i < nx; i++)
-    // {
-    //     double x = i * dx;
-    //     cout << left 
-    //          << setw(15) << x 
-    //          << setw(15) << u[i] << endl;
-    // }
-
-    // cout<<"Final u(x,t) distribution: "<<endl;
-    // for (int i = 0; i < nx; i++)
-    // {
-    //     double x = i * dx;
-    //     cout << left 
-    //          << setw(15) << x 
-    //          << setw(15) << s[i] << endl;
-    // }
 
     ofstream outfile("Burgers.csv");
 
@@ -97,8 +80,5 @@ int main(){
     outfile.close();
 
 
-
-
-    
     return 0;
 }
