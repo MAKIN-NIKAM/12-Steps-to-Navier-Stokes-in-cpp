@@ -2,17 +2,17 @@
 
 1D Linear Convection equation describes the motion of the wave moving with speed c in space and time.
 
-$$\frac{\partial u}{\partial t} + c\,\frac{\partial u}{\partial x} = 0$$
+$$\frac{\partial u}{\partial t} + c\frac{\partial u}{\partial x} = 0$$
 
 The above equation is discretized in space and time, using the Forward Difference scheme for time derivative, and the Backward Difference scheme for the spatial derivative. We consider the discretization of x-coordinate into points with index from i = 0 to N, and for the time domain we divide into discrete time intervals of size $\Delta$t.
 
 So, using the difference schemes for space and time we get:
 
-$$\frac{u_i^{n+1}-u_i^n}{\Delta t} + c\,\frac{u_i^n-u_{i-1}^n}{\Delta x} = 0$$
+$$\frac{u_i^{n+1}-u_i^n}{\Delta t} + c\frac{u_i^n-u_{i-1}^n}{\Delta x} = 0$$
 
 By isolating all the known and unknown terms we get:
 
-$$u_i^{n+1} = u_i^n-c\,\frac{\Delta t}{\Delta x}(u_i^n-u_{i-1}^n)$$
+$$u_i^{n+1} = u_i^n-c\frac{\Delta t}{\Delta x}(u_i^n-u_{i-1}^n)$$
 
 The above discretized equation is solved in [Step01 code] https://github.com/MAKIN-NIKAM/12-Steps-to-Navier-Stokes-in-Python-C-/blob/main/cpp/Step01_1D_Linear_Convection.cpp
 
