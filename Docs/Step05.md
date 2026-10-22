@@ -1,6 +1,6 @@
 ### Step 05: 2D Linear Convection
 
-2D Linear Convection consists of 2 coupled partial differential equations: 
+2D Linear Convection equation is given as: 
 
 $$\frac{\partial u}{\partial t} + c\frac{\partial u}{\partial x} + c\frac{\partial u}{\partial y} = 0$$
 
