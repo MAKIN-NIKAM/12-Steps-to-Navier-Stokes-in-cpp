@@ -14,3 +14,4 @@ The initial condition is same as Step01 (i.e. the hat function)
 
 The Plot for the initial and final wave can be seen here: https://github.com/MAKIN-NIKAM/12-Steps-to-Navier-Stokes-in-Python-C-/blob/main/Plots/1D%20Non_linear%20convection/1D%20Non%20Linear%20Convection.jpg
 
+The plot shows that the initial wave is moved to the right and the shape of the wave changes because the wave speed is "u", which varies for different parts of the wave.
