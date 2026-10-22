@@ -20,4 +20,11 @@ The initial conditions involve u = 2 in the interval $0.5 \le u \le 1$ and u = 1
 
 The Plot for the initial and the final wave can be seen here: https://github.com/MAKIN-NIKAM/12-Steps-to-Navier-Stokes-in-Python-C-/blob/main/Plots/1D%20Linear%20Convection/1D%20Linear%20Convection.jpg
 
-From the plot it can be seen that the wave has moved to the right, however the shape of the initial hat function changes due to the numerical diffusion and truncation errors. Moreover, the CFL no ($c \frac{\Delta t}{\Delta x}$) is 0.5 which signifies that the wave travels distance less than $\Delta x$ in $\Delta t$ time with speed c.  
+From the plot it can be seen that the wave has moved to the right, however the shape of the initial hat function changes due to the numerical diffusion and truncation errors. Moreover, the CFL no ($c \frac{\Delta t}{\Delta x}$) is 0.5 which signifies that the wave travels distance less than $\Delta x$ in $\Delta t$ time with speed c.
+
+The CFL No or Courant Friedrich Levy No. defines the stability of explicit time dependent hyberbolic PDEs, defined as:
+
+$\sigma$ = $c \frac{\Delta t}{\Delta x}\le\sigma_{max}$
+where $\sigma_{max}$ depends on the choice of discretization scheme.
+
+
