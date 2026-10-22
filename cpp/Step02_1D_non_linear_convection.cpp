@@ -12,7 +12,8 @@ int main(){
     const double x_max = 2.0;
     const double x_min = 0;
     const double dx = ( x_max - x_min ) / (nx - 1);
-    const double dt = 0.025;
+    const double sigma = 0.5;
+    const double dt = sigma*dx;
 
     // Initialization
 
