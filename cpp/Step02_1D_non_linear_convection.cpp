@@ -4,6 +4,7 @@
 #include<iomanip>
 #include<fstream>
 using namespace std;
+
 int main(){
     
     const int nx = 41;
