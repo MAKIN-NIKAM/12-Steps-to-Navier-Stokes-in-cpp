@@ -15,7 +15,7 @@ int main(){
     double dx = 2.0/(nx-1);
     double dy = 2.0/(ny-1);
     double sigma = 0.25;
-    double dt = (sigma*dx*dy)/(nu);
+    double dt = (sigma*dx*dx)/(nu);
 
     // Initialization
 
