@@ -9,8 +9,7 @@ The above equations are discretized using the methods described in previous step
 
 $$\frac{u_{i,j}^{n+1} - u_{i,j}^{n}}{\Delta t}+ u_{i,j}^{n} \frac{u_{i,j}^{n} - u_{i-1,j}^{n}}{\Delta x} + v_{i,j}^{n} \frac{u_{i,j}^{n} - u_{i,j-1}^{n}}{\Delta y} = 0$$
 
-$$\frac{v_{i,j}^{n+1} - v_{i,j}^{n}}{\Delta t}+ u_{i,j}^{n} \frac{v_{i,j}^{n} - v_{i-1,j}^{n}}{\Delta x}
-+ v_{i,j}^{n} \frac{v_{i,j}^{n} - v_{i,j-1}^{n}}{\Delta y}= 0$$
+$$\frac{v_{i,j}^{n+1} - v_{i,j}^{n}}{\Delta t}+ u_{i,j}^{n} \frac{v_{i,j}^{n} - v_{i-1,j}^{n}}{\Delta x}+ v_{i,j}^{n} \frac{v_{i,j}^{n} - v_{i,j-1}^{n}}{\Delta y}= 0$$
 
 The initial condition used is u =2, v = 2 for $0.5 \le x,y\le 1$ and u, v = 0 everywhere else.
 
