@@ -1,6 +1,7 @@
 ### Step 07: 2D Diffusion
 
 The 2D diffusion equation is given by:
+
 $$\frac{\partial u}{\partial t} = \nu\frac{\partial^2 u}{\partial x^2}+\nu\frac{\partial^2 u}{\partial y^2}$$
 
 The above equation is discretized similarly as the 1D diffusion equation as:
