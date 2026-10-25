@@ -9,3 +9,5 @@ $$\frac{\partial u}{\partial t} + c\,\frac{\partial u}{\partial x} = 0$$
 
 The above equation is discretized in space and time, using the Forward Difference scheme for time derivative, and the Backward Difference scheme for the spatial derivative. We consider the discretization of 
 
+
+
