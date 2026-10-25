@@ -8,6 +8,7 @@ The above equation is discretized similarly as the 1D diffusion equation as:
 $$\frac{u_{i,j}^{n+1} - u_{i,j}^{n}}{\Delta t} = \nu \frac{u_{i+1,j}^{n} - 2u_{i,j}^{n} + u_{i-1,j}^{n}}{\Delta x^2} + \nu \frac{u_{i,j+1}^{n} - 2u_{i,j}^{n} + u_{i,j-1}^{n}}{\Delta y^2}$$
 
 After reorganizing the equation for the unknown we get:
+
 $$u_{i,j}^{n+1} = u_{i,j}^{n} + \frac{\nu \Delta t}{\Delta x^2} (u_{i+1,j}^{n} - 2u_{i,j}^{n} + u_{i-1,j}^{n})+ \frac{\nu \Delta t}{\Delta y^2} (u_{i,j+1}^{n} - 2u_{i,j}^{n} + u_{i,j-1}^{n})$$
 
 The initial and boundary conditions are same as step06.
