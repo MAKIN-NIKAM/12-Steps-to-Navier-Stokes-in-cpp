@@ -1,6 +1,6 @@
 # 12-Steps-to-Navier-Stokes-in-C++
 
-This repository includes the code for 12 steps to Navier Stokes in C++ which is based on the CFD Python (https://github.com/barbagroup/CFDPython) course by Prof. Lorena Barba. The aim of this project is to implement all 12 steps starting from 1D Linear Convection to Channel Flow for Navier Stokes in C++. CFD Python course is a good stepping stone in the field of scientific computing which teaches the basics of CFD in an algorithmic and interactive way, involving solution of partial differential equations which describe physics of fluid flow. 
+This repository includes the code for 12 steps to Navier Stokes in C++ which is based on the [CFD Python](https://github.com/barbagroup/CFDPython) course by Prof. Lorena Barba. The aim of this project is to implement all 12 steps starting from 1D Linear Convection to Channel Flow for Navier Stokes in C++. CFD Python course is a good stepping stone in the field of scientific computing which teaches the basics of CFD in an algorithmic and interactive way, involving solution of partial differential equations which describe physics of fluid flow. 
 
 Structure of the Repository:
 
