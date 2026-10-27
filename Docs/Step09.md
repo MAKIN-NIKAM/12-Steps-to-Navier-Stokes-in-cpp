@@ -1,4 +1,6 @@
-### Step 10: 2D Laplace Equation
+### Step 09: 2D Laplace Equation
+
+In Steps 09 & 10 serve as the foundation for solving incompressible Navier-Stokes equation in 2D.
 
 The Laplace equation in 2D is given as:
 
