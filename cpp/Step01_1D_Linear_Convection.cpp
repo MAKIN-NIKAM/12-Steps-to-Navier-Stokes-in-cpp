@@ -2,6 +2,7 @@
 #include<vector>
 #include<cmath>
 #include<iomanip>
+#include<fstream>
 using namespace std;
 int main(){
     
@@ -25,7 +26,6 @@ int main(){
     
     int start = static_cast<int>(0.5/dx);
     int end = static_cast<int>(1/dx + 1);
-    cout<<start<<endl;
 
     for (int i = start; i < end ; i++)
     {
@@ -56,23 +56,24 @@ int main(){
 
         }
     }
-    cout<<"Final u(x,t) distribution: "<<endl;
-    for (int i = 0; i < nx; i++)
-    {
-        double x = i * dx;
-        cout << left 
-             << setw(15) << x 
-             << setw(15) << u[i] << endl;
-    }
+    // For writing the data for Post-processing
 
-    cout<<"Initial u(x,t) distribution: "<<endl;
-    for (int i = 0; i < nx; i++)
-    {
-        double x = i * dx;
-        cout << left 
-             << setw(15) << x 
-             << setw(15) << s[i] << endl;
-    }
+ofstream outfile("1D_LINEAR.csv");
+
+// Set  precision for floating-point numbers
+outfile << scientific << setprecision(15); 
+
+// 2. Write header (using "\n" instead of endl)
+outfile << "x,u, s\n";  
+
+for (int i = 0; i < nx; i++) {
+    double x = i * dx;
+    outfile << x << "," 
+            << u[i]
+            << "," << s[i] << "\n"; 
+}
+
+outfile.close();
 
     return 0;
 }
